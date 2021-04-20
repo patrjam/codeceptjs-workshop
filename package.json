@@ -1,0 +1,25 @@
+{
+  "name": "codeceptjs-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "codeceptjs:test": "codeceptjs run --config=./codecept.conf.js --debug",
+    "generate:autocompletion": "npx codeceptjs def --config codecept.conf.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrjam/codeceptjs-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrjam/codeceptjs-workshop/issues"
+  },
+  "homepage": "https://github.com/patrjam/codeceptjs-workshop#readme",
+  "devDependencies": {
+    "codeceptjs": "^3.0.6",
+    "playwright": "^1.10.0"
+  }
+}
