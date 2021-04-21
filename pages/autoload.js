@@ -1,10 +1,10 @@
 module.exports = {
-    AddRemoveElementsPage: './addRemoveElementsPage.js',
-    CheckboxesPage: './checkboxesPage.js',
-    ContextMenuPage: './contextMenuPage.js',
-    DropdownPage: './dropdownPage.js',
-    ForgotPasswordPage: './forgotPasswordPage.js',
-    HoversPage: './hoversPage.js',
-    KeyPressesPage: './keyPressesPage.js',
-    LoginPage: './loginPage.js',
+    AddRemoveElementsPage: './pages/addRemoveElementsPage.js',
+    CheckboxesPage: './pages/checkboxesPage.js',
+    ContextMenuPage: './pages/contextMenuPage.js',
+    DropdownPage: './pages/dropdownPage.js',
+    ForgotPasswordPage: './pages/forgotPasswordPage.js',
+    HoversPage: './pages/hoversPage.js',
+    KeyPressesPage: './pages/keyPressesPage.js',
+    LoginPage: './pages/loginPage.js',
 }

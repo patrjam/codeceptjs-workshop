@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "codeceptjs:test": "codeceptjs run --config=./codecept.conf.js --debug",
+    "codeceptjs:test": "codeceptjs run --config=codecept.conf.js --debug",
     "generate:autocompletion": "npx codeceptjs def --config codecept.conf.js "
   },
   "repository": {
