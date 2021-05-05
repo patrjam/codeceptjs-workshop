@@ -1,7 +1,7 @@
 /*
 Your mission:
 
-1. go on "/add_remove_elements" page
+1. go on "/add_remove_elements/" page
 2. click on "Add Element" button
 3. verify "Delete" button is here now
 
