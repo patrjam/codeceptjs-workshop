@@ -23,3 +23,6 @@ or
 
 ## Generate autocompletion
 `npm run generate:autocompletion`
+
+## Methods for Playwright testing
+https://codecept.io/helpers/Playwright/#playwright
