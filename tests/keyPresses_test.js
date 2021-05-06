@@ -10,6 +10,10 @@ Don't forget to create also Page Object structure in keyPressesPage.js and call/
 
 Feature('Key Presses');
 
-xScenario('test something', ({ I }) => {
+Scenario('test something', ({ I, KeyPressesPage }) => {
+    I.amOnPage('/key_presses');
+    KeyPressesPage.enterString('b');
+    KeyPressesPage.verifyResult();
+    I.wait(5);
 
 });
