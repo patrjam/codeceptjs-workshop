@@ -1,9 +1,7 @@
 const { I } = inject();
 
 class HoversPage {
-
-    // your code here
-
+    image='//div[@class="figure"]//img';
 }
 
 module.exports = new HoversPage();
