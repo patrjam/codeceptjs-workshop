@@ -10,6 +10,8 @@ Don't forget to create also Page Object structure in addRemoveElementsPage.js an
 
 Feature('Add/Remove Elements');
 
-xScenario('test something', ({ I }) => {
-
+Scenario('add remove elements', async ({ I, AddRemoveElementsPage }) => {
+    I.amOnPage('/add_remove_elements/')
+    AddRemoveElementsPage.toggleToAdd()
 });
+
