@@ -12,7 +12,7 @@ Feature('Key Presses');
 
 Scenario('test something', ({ I, KeyPressesPage }) => {
     I.amOnPage('/key_presses');
-    KeyPressesPage.enterString('b');
+    KeyPressesPage.enterString('blah');
     KeyPressesPage.verifyResult();
     I.wait(5);
 
