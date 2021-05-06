@@ -10,8 +10,8 @@ Don't forget to create also Page Object structure in contextMenuPage.js and call
 
 Feature('Context Menu');
 
-Scenario('test something', ({ I }) => {
+Scenario('test something', ({ I, ContextMenuPage}) => {
 I.amOnPage('/context_menu');
 I.see("Context Menu");
-I.seeElement('//div[@id="hot-spot"]');
+I.seeElement(ContextMenuPage.rectangle);
 });

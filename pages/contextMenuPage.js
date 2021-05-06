@@ -1,9 +1,7 @@
 const { I } = inject();
 
 class ContextMenuPage {
-
-    // your code here
-
+rectangle = '//div[@id="hot-spot"]';
 }
 
 module.exports = new ContextMenuPage();
