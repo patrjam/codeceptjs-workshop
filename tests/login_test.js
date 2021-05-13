@@ -12,7 +12,7 @@ Don't forget to create also Page Object structure in loginPage.js and call/use i
 
 Feature('Login');
 
-Scenario('test something', ({ I, LoginPage }) => {
+Scenario('test login page', ({ I, LoginPage }) => {
     I.amOnPage('/login');
     LoginPage.sendFilledForm('tomsmith', 'SuperSecretPassword!');
     I.see('Secure Area');
