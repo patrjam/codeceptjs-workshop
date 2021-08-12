@@ -10,6 +10,8 @@ Don't forget to create also Page Object structure in statusCodePage.js and call/
 
 Feature('Status Codes');
 
-xScenario('test something', ({ I }) => {
-
+Scenario('test something', ({ I }) => {
+    I.amOnPage('/status_codes');
+    I.click('200');
+    I.see('This page returned a 200 status code.');
 });
