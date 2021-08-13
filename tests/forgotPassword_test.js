@@ -11,7 +11,7 @@ Don't forget to create also Page Object structure in forgotPasswordPage.js and c
 
 Feature('Forgot Password');
 
-Scenario.only('Forgoten password', ({ I , ForgotPasswordPage}) => {
+Scenario('Forgoten password', ({ I , ForgotPasswordPage}) => {
     const appUrl = "/forgot_password"
     const email = "testEmail@dixonscarphone.com"
     I.amOnPage(appUrl)
