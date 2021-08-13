@@ -1,5 +1,5 @@
 # CodeceptJS workshop repository
-
+# test
 This repository is a sandbox for CodeceptJS (with Playwright) workshop. Solution is ready for http://the-internet.herokuapp.com pages.
 
 ## Before start
