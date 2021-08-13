@@ -11,6 +11,11 @@ Don't forget to create also Page Object structure in forgotPasswordPage.js and c
 
 Feature('Forgot Password');
 
-xScenario('test something', ({ I }) => {
-
+Scenario.only('Forgoten password', ({ I , ForgotPasswordPage}) => {
+    const appUrl = "/forgot_password"
+    const email = "testEmail@dixonscarphone.com"
+    I.amOnPage(appUrl)
+    ForgotPasswordPage.fillEmail(email)
+    I.click(ForgotPasswordPage.buttons.submitButton)
+    I.see("Verification email was send.")
 });
