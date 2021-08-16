@@ -10,7 +10,7 @@ Don't forget to create also Page Object structure in checkboxesPage.js and call/
 
 Feature('Checkboxes');
 
-xScenario('click on first checkbox and verify', ({ I, CheckboxesPage}) => {
+Scenario1('click on first checkbox and verify', ({ I, CheckboxesPage}) => {
 
     I.amOnPage('/checkboxes')
 
