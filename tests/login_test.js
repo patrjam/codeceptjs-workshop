@@ -10,8 +10,13 @@ Your mission:
 Don't forget to create also Page Object structure in loginPage.js and call/use it in test
 */
 
-Feature('Login');
+Feature('User Login');
 
-xScenario('test something', ({ I }) => {
+Scenario('Login Page Test Scenario', ({ I, LoginPage }) => {
+
+
+    I.amOnPage('/login');
+    LoginPage.fillInCredentialsAndLogin('tomsmith', 'SuperSecretPassword!');
+    I.see('Secure Area');
 
 });
