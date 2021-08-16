@@ -2,7 +2,17 @@ const { I } = inject();
 
 class ForgotPasswordPage {
 
-    // your code here
+inputs = {
+    email: '#email'
+}
+
+buttons = {
+    submitButton: '#form_submit' 
+}
+
+fillEmail(email){
+    I.fillField(this.inputs.email, email)
+}
 
 }
 
